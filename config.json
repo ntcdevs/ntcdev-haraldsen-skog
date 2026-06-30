@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "HARALDSEN SKOG",
+    "city": "Gjerdrum",
+    "category": "other",
+    "phone": "99117714",
+    "email": "t.h.maskiner@gmail.com",
+    "address": "Herbergåsen 12, 2022 Gjerdrum"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Skogsdrift & Maskinarbeid · Gjerdrum",
+    "headline": "Haraldsen",
+    "headlineAccent": "Skog",
+    "subheadline": "Profesjonell skogsdrift, tynning og maskinarbeid på Romerike. Vi tar vare på skogen din med erfaring, presisjon og respekt for naturen.",
+    "ctaText": "Få Tilbud",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "20+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Oppdrag utført"
+      },
+      {
+        "value": "100%",
+        "label": "Lokalt eid"
+      },
+      {
+        "value": "6",
+        "label": "Dager tilgjengelig"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Kontakt oss for pristilbud",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Skogsdrift & Hogst",
+        "desc": "Komplett hogst og skogsdrift med moderne maskiner — fra sluttavvirkning til ungskogtynning, tilpasset din eiendom.",
+        "icon": "Leaf",
+        "price": ""
+      },
+      {
+        "name": "Maskinarbeid & Grunnarbeid",
+        "desc": "Vi utfører gravearbeid, veibygging, planering og andre maskinoppdrag med erfarne maskinførere og pålitelig utstyr.",
+        "icon": "Wrench",
+        "price": ""
+      },
+      {
+        "name": "Vedlikehold & Rydding",
+        "desc": "Rydding av kratt, kantrydding, stormfelling og vedlikehold av skogsbilveier for optimal fremkommelighet og skogskjøtsel.",
+        "icon": "Shield",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Lokal Kompetanse i Skogen",
+    "body": "Haraldsen Skog er et lokalt firma med base i Gjerdrum, drevet av genuin lidenskap for skogbruk og maskinarbeid. Med over 20 års erfaring på Romerike kjenner vi terrenget, forholdene og behovene til skogeiere i regionen. Vi kombinerer moderne maskinpark med håndverkstradisjon for å levere resultater du kan stole på.",
+    "stat1": {
+      "value": "20+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Fullførte oppdrag"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Kundetilfredshet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et utvalg av prosjekter vi har gjennomført for skogeiere og grunneiere på Romerike."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Knut Erik Lund",
+        "role": "Skogeier i Gjerdrum",
+        "text": "Haraldsen Skog gjorde en fremragende jobb med tynning og hogst på eiendommen vår. Ryddig, effektivt og med stor respekt for terrenget. Kan ikke anbefale dem nok.",
+        "rating": 5
+      },
+      {
+        "name": "Marte Haug Nilsen",
+        "role": "Grunneier på Romerike",
+        "text": "Vi trengte grunnarbeid og veirydding før bygging, og Haraldsen Skog leverte til avtalt tid og pris. Profesjonelle og hyggelige å samarbeide med.",
+        "rating": 5
+      },
+      {
+        "name": "Olav Berntsen",
+        "role": "Fast kunde siden 2018",
+        "text": "Har brukt Haraldsen Skog til flere oppdrag over årene. Alltid pålitelige, grundige og med god kommunikasjon underveis. De beste i området.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Ta kontakt for en uforpliktende prat eller få et pristilbud tilpasset ditt prosjekt — vi svarer gjerne raskt."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
